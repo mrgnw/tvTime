@@ -75,7 +75,7 @@
 		0C369AE51D4588EB00905D7F = {
 			isa = PBXGroup;
 			children = (
-				0C369AF01D4588EB00905D7F /* xx */,
+				0C369AF01D4588EB00905D7F /* tvTime */,
 				0C369B081D459B7000905D7F /* tvTimeShelf */,
 				0C369B051D459B7000905D7F /* Frameworks */,
 				0C369AEF1D4588EB00905D7F /* Products */,
@@ -91,7 +91,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0C369AF01D4588EB00905D7F /* xx */ = {
+		0C369AF01D4588EB00905D7F /* tvTime */ = {
 			isa = PBXGroup;
 			children = (
 				0C369AF11D4588EB00905D7F /* AppDelegate.swift */,
@@ -100,6 +100,7 @@
 				0C369AF81D4588EB00905D7F /* Assets.xcassets */,
 				0C369AFA1D4588EB00905D7F /* Info.plist */,
 			);
+			name = tvTime;
 			path = xx;
 			sourceTree = "<group>";
 		};
