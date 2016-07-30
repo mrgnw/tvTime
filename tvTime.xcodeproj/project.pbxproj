@@ -41,7 +41,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0C369AEE1D4588EB00905D7F /* xx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xx.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C369AEE1D4588EB00905D7F /* tvTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tvTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C369AF11D4588EB00905D7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0C369AF31D4588EB00905D7F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0C369AF61D4588EB00905D7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -85,7 +85,7 @@
 		0C369AEF1D4588EB00905D7F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0C369AEE1D4588EB00905D7F /* xx.app */,
+				0C369AEE1D4588EB00905D7F /* tvTime.app */,
 				0C369B041D459B7000905D7F /* tvTimeShelf.appex */,
 			);
 			name = Products;
@@ -123,9 +123,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0C369AED1D4588EB00905D7F /* xx */ = {
+		0C369AED1D4588EB00905D7F /* tvTime */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0C369AFD1D4588EB00905D7F /* Build configuration list for PBXNativeTarget "xx" */;
+			buildConfigurationList = 0C369AFD1D4588EB00905D7F /* Build configuration list for PBXNativeTarget "tvTime" */;
 			buildPhases = (
 				0C369AEA1D4588EB00905D7F /* Sources */,
 				0C369AEB1D4588EB00905D7F /* Frameworks */,
@@ -137,9 +137,9 @@
 			dependencies = (
 				0C369B0D1D459B7000905D7F /* PBXTargetDependency */,
 			);
-			name = xx;
+			name = tvTime;
 			productName = xx;
-			productReference = 0C369AEE1D4588EB00905D7F /* xx.app */;
+			productReference = 0C369AEE1D4588EB00905D7F /* tvTime.app */;
 			productType = "com.apple.product-type.application";
 		};
 		0C369B031D459B7000905D7F /* tvTimeShelf */ = {
@@ -183,7 +183,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0C369AE91D4588EB00905D7F /* Build configuration list for PBXProject "xx" */;
+			buildConfigurationList = 0C369AE91D4588EB00905D7F /* Build configuration list for PBXProject "tvTime" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -196,7 +196,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0C369AED1D4588EB00905D7F /* xx */,
+				0C369AED1D4588EB00905D7F /* tvTime */,
 				0C369B031D459B7000905D7F /* tvTimeShelf */,
 			);
 		};
@@ -356,7 +356,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = xx/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.mrgnw.xx;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrgnw.tvTime;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -370,7 +370,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = xx/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.mrgnw.xx;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrgnw.tvTime;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -403,7 +403,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0C369AE91D4588EB00905D7F /* Build configuration list for PBXProject "xx" */ = {
+		0C369AE91D4588EB00905D7F /* Build configuration list for PBXProject "tvTime" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0C369AFB1D4588EB00905D7F /* Debug */,
@@ -412,13 +412,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0C369AFD1D4588EB00905D7F /* Build configuration list for PBXNativeTarget "xx" */ = {
+		0C369AFD1D4588EB00905D7F /* Build configuration list for PBXNativeTarget "tvTime" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0C369AFE1D4588EB00905D7F /* Debug */,
 				0C369AFF1D4588EB00905D7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0C369B0F1D459B7000905D7F /* Build configuration list for PBXNativeTarget "tvTimeShelf" */ = {
 			isa = XCConfigurationList;
@@ -427,6 +428,7 @@
 				0C369B111D459B7000905D7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
